@@ -1,0 +1,8 @@
+.form-oauth2 button.authelia {
+    background: #e6e6e6;
+    color: #333333;
+}
+.form-oauth2 button.authelia:hover {
+    background: #9ba9bd;
+}
+
