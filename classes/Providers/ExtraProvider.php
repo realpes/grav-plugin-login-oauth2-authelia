@@ -10,7 +10,7 @@ class ExtraProvider extends BaseProvider
     {
         parent::__construct();
         $admin = Grav::instance()['oauth2']->isAdmin();
-        $this->config = new Data(Grav::instance()['config']->get('plugins.login-oauth2-extras' . ($admin ? '.admin' : '')));
+        $this->config = new Data(Grav::instance()['config']->get('plugins.login-oauth2-authelia' . ($admin ? '.admin' : '')));
     }
 
     public function getAuthorizationUrl()
