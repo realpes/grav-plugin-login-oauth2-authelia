@@ -11,7 +11,7 @@ class AutheliaProvider extends ExtraProvider
         $options += [
             'clientId'      => $this->config->get('providers.authelia.client_id'),
             'clientSecret'  => $this->config->get('providers.authelia.client_secret'),
-            'customDomain'  => $this->config->get('providers.authelia.domain') . '/oidc/api'
+            'customDomain'  => $this->config->get('providers.authelia.domain') . '/api/oidc'
         ];
 
         parent::initProvider($options);
