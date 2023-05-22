@@ -5,13 +5,13 @@ version: 2.2.0
 description: authelia Login OAuth2 Providers (requires Login OAuth2 Plugin)
 icon: plug
 author:
-  name: Trilby Media
-  email: hello@trilby.media
-homepage: https://github.com/trilbymedia/grav-plugin-login-oauth2-authelia
+  name: Realpes
+  email: contact@realpes.com
+homepage: https://github.com/realpes/grav-plugin-login-oauth2-authelia
 demo: http://demo.yoursite.com
 keywords: grav, plugin, etc
-bugs: https://github.com/trilbymedia/grav-plugin-login-oauth2-authelia/issues
-docs: https://github.com/trilbymedia/grav-plugin-login-oauth2-authelia/blob/develop/README.md
+bugs: https://github.com/realpes/grav-plugin-login-oauth2-authelia/issues
+docs: https://github.com/realpes/grav-plugin-login-oauth2-authelia/blob/develop/README.md
 license: MIT
 dependencies:
   - { name: login-oauth2, version: '~2.0' }
@@ -144,5 +144,5 @@ form:
         providers.authelia.description:
           type: display
           style: vertical
-          content: '[<i class="fa fa-book"></i> Authelia for OAuth2]()'
+          content: '[<i class="fa fa-book"></i> Authelia for OAuth2](https://github.com/realpes/grav-plugin-login-oauth2-authelia)'
           markdown: true

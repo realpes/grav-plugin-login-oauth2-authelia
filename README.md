@@ -5,7 +5,11 @@ The **Login OAuth2 Authelia** Plugin is for [Grav CMS](http://github.com/getgrav
 
 **NOTE:** Please use the same **Callback URIs** and configuration from **Login OAuth2 Plugin**.
 
-This repository is inspired from the [trilbymedia/grav-plugin-login-oauth2-extras](http://github.com/trilbymedia/grav-plugin-login-oauth2-extras) a pull request was opened against this repo.
+This repository is inspired from the [trilbymedia/grav-plugin-login-oauth2-extras](http://github.com/trilbymedia/grav-plugin-login-oauth2-extras) a pull request was opened against this repo. 
+After acceptation this repository will be closed.
+
+## Disclaimer
+This repository is UNOFFICIAL and is currently being tested. The use of this plugin is your entire responsibility, the author of this plugin disclaims any responsibility.
 
 ## Installation
 
